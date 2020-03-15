@@ -1,0 +1,37 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // 解决：Webpack打包警告： We noticed you're using the `useBuiltIns` option without declaring a core-js version.
+        "corejs": 3,
+        "useBuiltIns": "usage",
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": false,
+        "helpers": false,
+        "regenerator": false,
+        "useESModules": false
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": false
+      }
+    ],
+    [
+      "@babel/plugin-proposal-private-methods",
+      {
+        "loose": false
+      }
+    ]
+  ],
+  "comments": false
+}

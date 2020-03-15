@@ -1,0 +1,52 @@
+{
+  "name": "di-util",
+  "version": "1.0.0",
+  "description": "JavaScript tool library based on DI",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "node clean-dist.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "js",
+    "JavaScript",
+    "IoC",
+    "DI",
+    "util",
+    "tool",
+    "register",
+    "resolve"
+  ],
+  "author": {
+    "name": "LGD.HuaFEEng",
+    "email": "lgd.huaoper@gmail.com",
+    "url": "https://lgdhuaoper.github.io/"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LGDHuaOPER/di-util"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-private-methods": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.6.4",
+    "relix": "^1.1.4",
+    "rimraf": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "bugs": {
+    "url": "https://github.com/LGDHuaOPER/di-util/issues"
+  },
+  "homepage": "https://github.com/LGDHuaOPER/di-util#readme"
+}
