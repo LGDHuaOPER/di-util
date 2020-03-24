@@ -22,7 +22,7 @@
     "email": "lgd.huaoper@gmail.com",
     "url": "https://lgdhuaoper.github.io/"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/LGDHuaOPER/di-util"
