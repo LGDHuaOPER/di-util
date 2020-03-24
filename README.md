@@ -4,10 +4,10 @@
 
 <div align="center">
 
-![npm](https://img.shields.io/npm/dt/di-util)
-<!-- ![MIT](https://img.shields.io/badge/license-MIT-000000.svg) -->
+![MIT](https://img.shields.io/badge/license-MIT-000000.svg)
 ![webpack](https://img.shields.io/badge/webpack-4-blue.svg)
 ![lodash](https://img.shields.io/badge/lodash-4.17.15-green.svg)
+![npm](https://img.shields.io/npm/dt/di-util)
 
 </div>
 
