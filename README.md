@@ -1,6 +1,13 @@
-# di-util
+<h1 align="center">di-util</h1>
 
-JavaScript tool library based on DI. You can use this tool to register modules, resolve dependencies, and uninstall modules.
+<h3 align="center">JavaScript tool library based on DI. You can use this tool to register modules, resolve dependencies, and uninstall modules.</h3>
+
+<div align="center">
+![npm](https://img.shields.io/npm/dt/di-util)
+<!-- ![MIT](https://img.shields.io/badge/license-MIT-000000.svg) -->
+![webpack](https://img.shields.io/badge/webpack-4-blue.svg)
+![lodash](https://img.shields.io/badge/lodash-4.17.15-green.svg)
+</div>
 
 ## Installing
 
